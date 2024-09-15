@@ -33,12 +33,20 @@ return new class extends Migration
         });
         DB::table('users')->insert([
             ['name' => '',
-            'email' => 'marchant@gmail.com',
-            'contact_no' => '123',
+            'email' => 'jasim@gmail.com',
+            'contact_no' => '1',
             'role_id' => '1',
             'password' => Hash::make(123),
             'status' => 1,
             'full_access' => 1],
+            ['name' => '',
+            'email' => 'hrm@gmail.com',
+            'contact_no' => '2',
+            'role_id' => '2',
+            'password' => Hash::make(123),
+            'status' => 1,
+            'full_access' => 0],
+
         ]);
     }
 

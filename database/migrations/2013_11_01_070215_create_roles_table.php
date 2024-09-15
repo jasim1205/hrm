@@ -24,6 +24,11 @@ return new class extends Migration
             'name' => 'Super Admin',
             'identity' => 'superadmin',
             'created_at' => Carbon::now(),
+           ],
+           [
+            'name' => 'Employee',
+            'identity' => 'employee',
+            'created_at' => Carbon::now(),
             ]
         ]);
     }
